@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+     <title>Lets cook at home!</title>
+</head>
+
+
+<body>
+  <header>
+    <h1>Lets Cook At Home!</h1>
+  </header>
+  <main>
+    <h2>Are you in a pinch and too lazy to stop at the grocery store and dont want to waste money ordering out? Use this helpful tool!</h2>
+    <p><strong>How It Works:</strong></p>
+    <p>Enter all the ingredients you have at home, click "Search Recipes" and a list of 6 possible recipes will return. Double check that you have the remaining ingredients and then click the link and enjoy your meal :) </p>
+    <div class="search-container">
+      <input type="text" id="ingredientInput" placeholder="Enter ingredients, comma-separated">
+      <button id="searchBtn">Search Recipes</button>
+    </div>
+    <div id="recipeList" class="recipe-list"></div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
